@@ -1,6 +1,8 @@
-# Lead Tracker Chrome Extension
+# Lead Tracker Progressive Web App
+A modern, installable web application for saving and managing leads using Firebase.
 
-Lead Tracker is a simple Chrome extension designed to help users save and manage leads (URLs) efficiently while browsing.
+## Live Demo
+🌐 [https://shymochkaa.github.io/lead-tracker-mobile-app/](https://shymochkaa.github.io/lead-tracker-mobile-app/)
 
 ## Table of Contents
 - [About the Project](#about-the-project)
@@ -11,40 +13,41 @@ Lead Tracker is a simple Chrome extension designed to help users save and manage
 - [Acknowledgments](#acknowledgments)
 
 ## About the Project
-This Chrome extension project was developed as part of the **Frontend Developer Career Path** on [Scrimba](https://scrimba.com). Through this project, I practiced core web development concepts, Chrome extension APIs, and basic data storage techniques.
+A Progressive Web App (PWA) developed during the **Frontend Developer Career Path** on [Scrimba](https://scrimba.com), designed for efficient lead tracking.
 
 ## Features
-- **Save URLs**: Quickly save and organize leads directly from the browser
-- **Simple Interface**: User-friendly design for easy access and lead management
-- **Local Storage**: Data is saved locally, so leads persist between sessions
+- **Progressive Web App**: Installable on desktop and mobile devices
+- **Firebase Integration**: Real-time data storage
+- **Offline Functionality**: Works without constant internet connection
+- **Cross-Platform Compatibility**: Access leads from any device
+- **URL Saving**: Quickly add and manage website links
 
-## Installation
-To install the extension locally:
+## Installation on Mobile Devices
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/shymochkaa/lead-tracker.git
-   ```
+### iPhone Installation
+1. Open Safari and navigate to [https://shymochkaa.github.io/lead-tracker-mobile-app/](https://shymochkaa.github.io/lead-tracker-mobile-app/)
+2. Tap the Share button (square with an arrow)
+3. Select "Add to Home Screen"
+4. Name the app and tap "Add"
 
-2. Open **Chrome** and navigate to `chrome://extensions`
-3. Enable **Developer mode** by toggling it on in the top-right corner
-4. Click on **Load unpacked** and select the `lead-tracker` folder where this project is located
-5. The extension should now be added to your browser, and you can see its icon in the Chrome toolbar
+### Android Installation
+1. Open Chrome and go to [https://shymochkaa.github.io/lead-tracker-mobile-app/](https://shymochkaa.github.io/lead-tracker-mobile-app/)
+2. Tap the menu icon (three dots)
+3. Select "Add to home screen"
+4. Name the app and tap "Add"
 
 ## Usage
-
-1. Click on the Lead Tracker icon in the Chrome toolbar to open the extension
-2. Use the provided interface to:
-   - Add new URLs (leads) by typing them into the input field and clicking the **Save** button
-   - View a list of all saved URLs
-   - Clear all saved leads when they are no longer needed
-3. The saved leads will be stored locally, so they remain available even after closing the browser
+1. Enter URLs in the input field
+2. Click "SAVE INPUT" to add leads
+3. Double-click "DELETE ALL" to clear all leads
+4. Tap on saved links to open them in a new browser tab
 
 ## Technologies Used
+- **PWA Technologies**
+- **Firebase Realtime Database**
 - **HTML5**
-- **CSS3**
 - **JavaScript**
-- **Chrome Extension APIs** for managing browser interactions and local storage
+- **ES6 Modules**
 
 ## Acknowledgments
-This project was created as part of the **Frontend Developer Career Path** on [Scrimba](https://scrimba.com), where I learned essential skills for building interactive web applications and browser extensions.
+Created during the **Frontend Developer Career Path** on [Scrimba](https://scrimba.com).
